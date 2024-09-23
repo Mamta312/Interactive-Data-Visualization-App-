@@ -23,3 +23,35 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/interactive-data-visualization-app.git
    cd interactive-data-visualization-app
+
+Create a virtual environment (optional but recommended):
+
+bash
+Copy code
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+Install the required packages:
+
+bash
+Copy code
+pip install -r requirements.txt
+Usage
+Run the Streamlit app:
+
+bash
+Copy code
+streamlit run app.py
+Upload your CSV or Excel file when prompted.
+
+Use voice input or type your queries to interact with the data.
+
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request if you have suggestions for improvements.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Acknowledgments
+Thanks to the open-source community for the libraries and tools that made this project possible.
+Contact
+For questions or feedback, feel free to reach out at kotharimansi312@gmail.com
